@@ -74,3 +74,10 @@ p{
     margin-bottom: 5px;
     width: 100%;
 }
+.resume-container{
+    text-align: center;
+}
+.resume-paragraph{
+    font-size: larger;
+    text-align: center;
+}
