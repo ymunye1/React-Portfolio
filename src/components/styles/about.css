@@ -1,0 +1,76 @@
+/* div{
+    background-image: url("/public/assets/images/IMG_Yasin_FL.png"); */
+    /* padding: 3%; */
+    /* background-size: cover; */
+    /* width: 80%; */
+    /* background-repeat: no-repeat;  */
+/* } */
+
+/* .florida{
+    background-image: url('../assets/images/IMG_Yasin_FL.png');
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* section{
+    
+} */
+    /* background-image: url('../assets/images/IMG_Yasin_FL_resizeimage.png'); */
+    /* padding: 40em;  */
+    /* background-size: 100% ; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover;  */
+    /* background-size: contain; */
+    /* width: 200px; */
+    /* height: 100vh; */
+    /* background-attachment: fixed; */
+
+
+.about-header{
+    text-align: center;
+}
+/* img{
+    
+    height: 100vh;
+    float: left;
+    
+} */
+img{
+    width:  20%;  
+}
+section{
+    float: left;
+}
+p{
+    text-align: justify;
+}
+
+/* .the-proj{
+    background-color: aqua;
+} */
+
+.cards {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.cards{
+    display: flex;
+    display: wrap;
+}
+
+.form{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
