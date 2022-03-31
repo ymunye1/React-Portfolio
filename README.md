@@ -7,8 +7,8 @@ Link to website: https://ymunye1.github.io/React-Portfolio/
 
 Link to code:https://github.com/ymunye1/React-Portfolio
 
-
- ![React-Portfolio(Screenshot)](src="https://user-images.githubusercontent.com/90288817/161006672-e2afefe8-e055-4de3-8e96-a57143401086.png">)
+Screenshot of Portfolio
+![React-Portfolio(Screenshot)](<img width="1332" alt="React-Portfolio-screenshot" src="https://user-images.githubusercontent.com/90288817/161006672-e2afefe8-e055-4de3-8e96-a57143401086.png">)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
