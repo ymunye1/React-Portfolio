@@ -45,16 +45,29 @@ export default function Contact() {
     <div>
       <h1>Contact Page</h1>
       <form className="form">
-        <input value={userName} name="userName" onChange={handleInputChange} type="text" placeholder="Name"/>
-        <input value={email} name="email" onChange={handleInputChange} type="email"placeholder="Email Address"/>
+        <div><input
+          value={userName}
+          name="userName"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Name"
+        /></div>
+        <div><input
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          type="email"
+          placeholder="Email Address"
+        /></div>
 
-        <input
+        <div><input
           value={message}
           name="message"
           onChange={handleInputChange}
           type="message"
           placeholder="Message"
-        />
+        /></div>
+        
         <button type="button" onClick={handleFormSubmit}>
           Submit
         </button>
@@ -63,7 +76,7 @@ export default function Contact() {
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
-      )} 
+      )}
     </div>
   );
 }

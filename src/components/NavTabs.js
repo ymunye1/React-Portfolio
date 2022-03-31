@@ -49,6 +49,16 @@ function NavTabs({ currentPage, handlePageChange }) {
           Resume
         </a>
       </li>
+      {/* <li className="nav-item">
+        <a
+          href="#testimonial"
+          onClick={() => handlePageChange('Testimonial')}
+          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Testimonial' ? 'nav-link active' : 'nav-link'}
+        >
+          Testimonial
+        </a>
+      </li> */}
     </ul>
     
   );
